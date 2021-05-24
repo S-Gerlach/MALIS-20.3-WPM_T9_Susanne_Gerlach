@@ -1,17 +1,17 @@
-Fakultät für Informations- und Kommunikationswissenschaft
-Institut für Informationswissenschaft
-MALIS-Master in Library and Information Sciences
-Sommersemester 2021
-Modul WPM T9
-Dozent: Prof. Dr. Konrad Förstner
-Verfasserin: Susanne Gerlach
+Fakultät für Informations- und Kommunikationswissenschaft 
+Institut für Informationswissenschaft 
+MALIS-Master in Library and Information Sciences 
+Sommersemester 2021 
+Modul WPM T9 
+Dozent: Prof. Dr. Konrad Förstner 
+Verfasserin: Susanne Gerlach 
 
 
-#Aufgabe WPM_T9.1
-##Datenintensive Prozesse im Arbeitsalltag - Bestandsaufnahme und Ideenentwicklung
+# Aufgabe WPM_T9.1 
+## Datenintensive Prozesse im Arbeitsalltag - Bestandsaufnahme und Ideenentwicklung 
 
 
-###1. Einführung
+### 1. Einführung 
 
 In der vorliegenden Ausarbeitung soll betrachtet werden, bei welchen Prozessen des eigenen Berufsalltags die Arbeit mit Daten im Fokus steht und wie sich er Umgang mit diesen Daten dabei gestaltet. Darüber hinaus werden Überlegungen angestellt, an welcher
 Stelle beziehungsweise bei welchen konkreten Arbeitsschritten eine Softwarelösung gegebenenfalls zur grundsätzlichen Erleichterung oder auch Zeitersparnis im Prozess beitragen könnte. 
@@ -20,14 +20,14 @@ Der berufspraktische Rahmen betrifft daher einen freien Bildungsträger (IUCM), 
 tätig ist. Auch in diesem Arbeitskontext existieren Aufgaben bzw. Prozesse, bei denen mit großen Datenmengen gearbeitet wird und an denen sicherlich die ein oder andere Optimierung des Workflows vorgenommen werden könnte. Wie diese Prozesse aussehen, soll im
 Folgenden gezeigt werden.
 
-###2. Bestandsaufnahme Arbeit mit Daten am IUCM
+### 2. Bestandsaufnahme Arbeit mit Daten am IUCM 
 Die intensivste Arbeit mit Daten im eingangs geschilderten Arbeitskontext liegt im Bereich der Kursverwaltung und bezieht sich auf den Umgang mit Studierendendaten. Bei der Anmeldungen zu einem der Deutschkurse werden von den Studierenden zahlreiche
 Daten abgefragt (personenbezogene Daten,Selbsteinschätzung Sprachniveau,Zugehörigkeit zu stipendienberechtigten Studienprogrammen, etc.) und von ihnen über ein Online-Registrierungsformular auf der Website des IUCM übermittelt. Diese Daten werden im Anschluss in eine lokal vorliegende Datenbank
 (MS Access) synchronisiert. Im Rahmen der Kursorganisation werden die einzelnen Datensätze händisch ergänzt (beispielsweise mit Angaben zu bereits besuchten Kursen, Eingruppierung Niveaustufe, interne Kursnummer, Kursbeitrag) und somit für die Arbeit
 zur Kurseinteilung und begleitenden Verwaltung optimiert. Am Ende eines jeden Kurses erfolgt auch die Noten-/ETCS-Vergabe über eine Ergänzung in der Datenbank sowie die Zeugniserstellung über einen DB-Bericht. Da an einem einzelnen Deutschkurs im
-Schnitt zwischen 450 und 500 Studierende teilnehmen, kommt bei dieser Arbeit eine große Menge relevanter Daten zusammen.
+Schnitt zwischen 450 und 500 Studierende teilnehmen, kommt bei dieser Arbeit eine große Menge relevanter Daten zusammen. 
 
-###3. Workflows und Optimierungspotential
+### 3. Workflows und Optimierungspotential 
 Um im Folgenden Überlegungen zu einer Optimierung bestimmter Prozessschritte anstellen zu können, muss zunächst einmal der betreffende Workflow kurz geschildert werden. Grundsätzlich wird eine Access-Datenbank für drei aufeinanderfolgende Kurse genutzt, den
 des Wintersemesters, einen Intensivkurs in den Semesterferien und den des folgenden Sommersemesters. Danach wird eine neue Datenbank aufgesetzt und für die Studierendendaten und die Kursverwaltung genutzt. Einer der wichtigsten Arbeitsschritte bei der 
 Kursverwaltung ist der Abgleich, ob ein*e Student*in bereits einen Deutschkurs beim IUCM besucht hat und wenn ja in welchem Sprachniveau, um für den neuen Kurs das korrekte Niveau zu ermitteln. Innerhalb des hier geschilderten "Dreier-Zyklus" und somit 
